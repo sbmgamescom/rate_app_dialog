@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:rate_app_dialog/rate_app_dialog.dart';
 
 import 'home.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  AppRating.instance.initialize(
+    config: AppRatingConfig(
+      googlePlayLink: "googlePlayLink",
+    ),
+  );
   runApp(const MyApp());
 }
 

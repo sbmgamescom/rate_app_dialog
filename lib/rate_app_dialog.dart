@@ -1,7 +1,2 @@
-library rate_app_dialog;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/rate_app.dart';
+export 'src/config.dart';
