@@ -11,6 +11,7 @@ class RateMyApp {
 
     if (Platform.isAndroid) {
       showDialog(
+        barrierDismissible: false,
         context: context,
         builder: (context) => AlertDialog(
           title: const Center(
