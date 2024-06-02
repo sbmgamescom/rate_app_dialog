@@ -1,5 +1,5 @@
 name: rate_app_dialog
-description: "A new Flutter package project."
+description: A Flutter package to prompt users to rate your app by showing a customizable dialog and redirecting them to the Google Play Store.
 version: 0.0.1
 homepage:
 
