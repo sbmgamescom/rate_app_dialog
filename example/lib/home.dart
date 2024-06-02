@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            AppRating.instance.show(context);
+            RateMyApp.show(context);
           },
           child: const Text('show rate us dialog'),
         ),
